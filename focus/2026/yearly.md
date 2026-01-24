@@ -1,6 +1,6 @@
 # 2026 Yearly Goals
 
-**Created:** 2026-01-25
+**Created:** 2026-01-24
 
 Goals cascade down: Yearly → Quarterly → Monthly → Weekly
 

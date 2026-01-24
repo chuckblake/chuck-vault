@@ -1,6 +1,6 @@
 # Current Focus
 
-**Last Updated:** 2026-01-25
+**Last Updated:** 2026-01-24
 
 Quick reference dashboard. Detailed goals live in `focus/`.
 
@@ -45,9 +45,9 @@ Quick reference dashboard. Detailed goals live in `focus/`.
 
 ## Waiting On
 
-| Item | Who | Since |
-|------|-----|-------|
-| GET-921 rollout plan | Max Klein | Jan 24 |
+| Item | Who | Since | Next |
+|------|-----|-------|------|
+| GET-921 rollout plan | Max Klein | Jan 24 | Mon 1/26 |
 
 ---
 

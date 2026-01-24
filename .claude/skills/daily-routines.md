@@ -6,7 +6,24 @@ Guidance for morning and evening interactions based on day of week.
 
 Always determine the current day of week before starting morning or evening routines. The day shapes the tone, focus areas, and conversation flow.
 
-**Timezone Note:** Chuck is in Eastern Standard Time (EST/EDT). The system-provided date may be in UTC and could be off by a day, especially in early morning or late evening. If Chuck states it's a different day than the system reports, trust him - he knows what day it is locally.
+**How to get the correct date:**
+1. Run `date '+%Y-%m-%d %A'` to get the local date with day of week
+2. This returns the correct EST/EDT time, not UTC
+3. Use this for all date calculations, file naming, and day-of-week logic
+
+**Do NOT:**
+- Rely solely on the system prompt "Today's date" (may not include day of week)
+- Calculate days manually (e.g., "if Jan 24 then Monday is Jan 27") - use the `date` command instead
+- Assume timezone offsets
+
+**Date math example:**
+```bash
+# Get next Monday's date
+date -v+monday '+%Y-%m-%d'
+
+# Get date N days from now
+date -v+3d '+%Y-%m-%d'
+```
 
 ## Weekly Rhythm
 
