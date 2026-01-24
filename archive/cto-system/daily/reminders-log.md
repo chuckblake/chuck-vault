@@ -6,7 +6,7 @@ Track reminders sent to team members for follow-up.
 
 | Date | Sent To | Topic | Linear Issue | Follow-up By | Status |
 |------|---------|-------|--------------|--------------|--------|
-| 2026-01-21 | Max Klein | Update issue with rollout plan details | [GET-921](https://linear.app/getlea/issue/GET-921) | 2026-01-24 | Open |
+| 2026-01-21 | Max Klein | Update issue with rollout plan details | [GET-921](https://linear.app/getlea/issue/GET-921) | 2026-01-26 | Open |
 | 2026-01-22 | David Lei | Upload eval documents to Linear issues | — | 2026-01-23 | Closed |
 
 ## Closed Reminders
