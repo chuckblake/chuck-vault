@@ -17,10 +17,13 @@ Before helping with anything substantial, read the relevant context:
 | File | Contains | Read When |
 |------|----------|-----------|
 | `me/about.md` | Background, values, working style | Always helpful |
-| `me/focus.md` | Current priorities and what's top of mind | Daily interactions |
-| `me/goals.md` | Active goals across all areas | Planning sessions |
+| `me/focus.md` | Dashboard with current state and links | Daily interactions |
+| `me/goals.md` | Legacy goals file | Reference only |
 | `me/people.md` | Quick reference for key people | Before 1:1 prep, communication |
 | `people/[name].md` | Detailed person files | When discussing specific people |
+| `focus/2026/yearly.md` | 2026 yearly + quarterly goals | Planning, weekly review |
+| `focus/2026/2026-MM.md` | Monthly goals | Start of month, weekly review |
+| `focus/2026/WXX.md` | Weekly priorities | Daily interactions |
 
 ## Key Commands
 
@@ -40,9 +43,15 @@ When Chuck says "add to inbox" or shares a quick thought:
 3. Don't over-process - inbox is for raw capture
 
 ### Daily Interactions
+- **First: Check the day of week** - this shapes tone and focus (see `.claude/skills/daily-routines.md`)
+- Mon-Thu: 80% work focus, professional energy
+- Friday: Work focus but closing-out mindset, lighter tone
+- Saturday: 80% personal, relaxed, off-duty
+- Sunday: Weekly review and planning focus
 - Reference `me/focus.md` to understand current priorities
 - Check `journal/` for recent context
 - Be concise but warm
+- **Always log by default** - when Chuck shares accomplishments, plans, or ideas, capture them in the appropriate place (journal, inbox, project files) without asking
 
 ### Planning & Review Sessions
 - Read relevant context files first
@@ -101,8 +110,10 @@ Skills are contextual capabilities. See `.claude/skills/` for details.
 
 | Skill | File | Purpose |
 |-------|------|---------|
+| Daily Routines | `daily-routines.md` | Day-aware morning/evening flows, weekly rhythm |
 | People Management | `people-management.md` | Personal CRM, contact management |
 | Linear Issues | `linear-issues.md` | LEA work issue reference (GET-XXX) |
+| Corrections | `corrections.md` | Capture mistakes and learnings to avoid repeating them |
 
 ### Linear Quick Reference
 - Issue format: `GET-XXX`

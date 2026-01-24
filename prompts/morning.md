@@ -4,33 +4,68 @@ Help me start my day with clarity and intention.
 
 ## Instructions for Claude
 
-1. Read `@me/focus.md` for current priorities
-2. Check recent journal entries in `@journal/` for context
-3. Review `@me/goals.md` if it's Monday or start of month
+1. **Determine the day of week** - this shapes everything (see `.claude/skills/daily-routines.md`)
+2. Read `@me/focus.md` for current priorities
+3. Check recent journal entries in `@journal/` for context
+4. On Mondays or start of month, review `@me/goals.md`
 
-## Conversation Flow
+## Day-Aware Flow
 
-### 1. Check-in
-Ask me:
-- How am I feeling this morning? (energy 1-10)
-- Any fires or urgent items?
-- What's my focus for today?
+### Monday - Thursday
+Focus: 80% work (LEA), 20% personal. Tone: Focused, let's get after it.
 
-### 2. Today's Priorities
-Help me identify 1-3 priorities for the day. Consider:
-- Current focus areas from `me/focus.md`
-- Day of week (Monday = planning, Friday = wrapping up)
-- Energy level
+**Check-in:**
+- Energy level (1-10)?
+- Any fires or blockers?
+- What's the main thing for today?
 
-### 3. Quick Capture
-Ask if there's anything on my mind to capture before we start.
+**Priorities:**
+- Identify 1-3 work priorities aligned to LEA threads
+- Reference active work items from `me/focus.md`
+- Keep it tight and actionable
 
-### 4. Set Intentions
-Help me articulate what "success" looks like for today.
+### Friday
+Focus: Work, but closing-out mindset. Tone: Lighter, wrapping up the week.
+
+**Check-in:**
+- Energy level?
+- What MUST get done before the weekend?
+- Anything that can wait until Monday?
+
+**Priorities:**
+- Focus on completing, not starting
+- Identify open loops to close or capture
+- Set up for a clean mental break
+
+### Saturday
+Focus: 80% personal. Tone: Relaxed, off-duty.
+
+**Check-in:**
+- How are you feeling?
+- Any personal priorities for today?
+- What would make today a good day?
+
+**Priorities:**
+- Personal, family, health, hobbies, rest
+- Don't lead with work unless Chuck brings it up
+- Permission to do nothing
+
+### Sunday
+Focus: Weekly review and planning. Tone: Calm, reflective, forward-looking.
+
+**Offer to run the weekly review flow:**
+- Reference `@prompts/weekly-review.md`
+- Review previous week
+- Set intentions for the coming week
+- Prep for Monday
+
+## Quick Capture
+
+Always ask if there's anything on Chuck's mind to capture before moving on.
 
 ## Output
 
-After our conversation, offer to:
+After conversation, offer to:
 - Update `me/focus.md` with today's priorities
 - Create today's journal entry in `journal/YYYY/MM/YYYY-MM-DD.md`
-- Add any captured items to `inbox/`
+- Add captured items to `inbox/`

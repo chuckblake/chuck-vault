@@ -1,16 +1,17 @@
 # Current Focus
 
-**Last Updated:** January 2026
+**Last Updated:** 2026-01-25
 
-What's top of mind right now. Update this regularly.
+Quick reference dashboard. Detailed goals live in `focus/`.
 
 ---
 
-## This Week's Priorities
+## Now
 
-1. [Add priority]
-2. [Add priority]
-3. [Add priority]
+**Week 4 (Jan 20-26):** ClawdBot setup, health recovery
+→ [This week's details](../focus/2026/W04.md)
+
+**Energy:** 5-6/10 | **Bandwidth:** Low | **Focus time:** Late morning
 
 ---
 
@@ -22,37 +23,40 @@ What's top of mind right now. Update this regularly.
 - First engineering hire pipeline
 
 ### Ventures
-- [Active venture work]
+- **Indie Crates** — PostHog-driven autonomous dev
+- **GetMusic.fm** — Exploring
+- **Chuck Vault** — Personal OS setup
 
 ### Personal
-- [Personal priorities]
+- Health recovery + GLP-1 week 5
+- ClawdBot as productivity multiplier
+
+---
+
+## Focus Hierarchy
+
+| Scope | File |
+|-------|------|
+| 2026 Goals | [yearly.md](../focus/2026/yearly.md) |
+| January | [2026-01.md](../focus/2026/2026-01.md) |
+| This Week | [W04.md](../focus/2026/W04.md) |
 
 ---
 
 ## Waiting On
 
-| Item | Waiting For | Since | Next Action |
-|------|-------------|-------|-------------|
-| | | | |
-
----
-
-## Energy & Bandwidth
-
-**Current energy level:** /10
-**Available bandwidth:** [High / Medium / Low]
-**Best focus times:** [When are you sharpest?]
+| Item | Who | Since |
+|------|-----|-------|
+| GET-921 rollout plan | Max Klein | Jan 24 |
 
 ---
 
 ## What I'm Avoiding
 
-Be honest - what should you be doing that you're not?
-
--
+- Exercise/health habits
 
 ---
 
 ## Notes
 
-Quick thoughts, context, or anything relevant to current state.
+Building ClawdBot infrastructure this weekend. Goal: productivity multiplier baseline before ramping back into LEA work.
