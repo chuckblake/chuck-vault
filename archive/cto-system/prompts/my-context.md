@@ -7,7 +7,7 @@
 **Name:** Chuck Blake
 **Role:** CTO & Co-Founder
 **Company:** LEA
-**Reporting To:** N/A (Co-Founder)
+**Reporting To:** Max Klein (CEO & Co-Founder)
 
 I'm the CTO and co-founder of LEA, where I'm rethinking how wealth management firms handle data in the age of AI. I'm a startup executive with early-stage DNA and a bias toward action. I've worked across engineering, product, marketing, and operations—always focused on using modern tools to get ideas into the world faster.
 
@@ -121,6 +121,7 @@ Leading firms like Farther Finance, Pure Financial, and Mission Wealth trust LEA
 ### Key Relationships
 | Person | Role | Working Relationship |
 |--------|------|---------------------|
+| Max Klein | CEO & Co-Founder | Co-founder, business partner |
 | Brenton Morris | Founding Engineer | Direct report, core technical partner |
 | David Lei | Engineer Intern | Direct report |
 
