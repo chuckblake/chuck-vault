@@ -121,6 +121,7 @@ Skills are contextual capabilities. See `.claude/skills/` for details.
 | Daily Routines | `daily-routines.md` | Day-aware morning/evening flows, weekly rhythm |
 | Weekly Review | `weekly-review.md` | GTD-style full weekly review process |
 | People Management | `people-management.md` | Personal CRM, contact management |
+| Process Meeting | `process-meeting.md` | Convert transcriptions, extract todos, flag person info |
 | Linear Issues | `linear-issues.md` | LEA work issue reference (GET-XXX) |
 | Corrections | `corrections.md` | Capture mistakes and learnings to avoid repeating them |
 

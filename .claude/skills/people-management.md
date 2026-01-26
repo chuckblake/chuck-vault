@@ -28,10 +28,11 @@ Manage the personal CRM in `people/`. This skill activates when the user mention
    - How they met
    - Any contact info shared
    - Tags (relationship type)
-2. Create new file from template
-3. Fill in known fields (leave `aliases` empty by default)
-4. Confirm creation
-5. Do NOT add aliases unless explicitly requested
+2. Use the `linkedin-finder` agent to find their LinkedIn URL (if professional contact)
+3. Create new file from template
+4. Fill in known fields (leave `aliases` empty by default)
+5. Confirm creation
+6. Do NOT add aliases unless explicitly requested
 
 ### When User Mentions Existing Person
 
@@ -79,6 +80,9 @@ Handle ambiguity:
 - `met_context` - How we met
 - `created` - Today's date
 
+### Optional but Recommended
+- `linkedin` - LinkedIn profile URL (use `linkedin-finder` agent to find)
+
 ### Update on Each Edit
 - `updated` - Today's date
 
@@ -104,7 +108,9 @@ Handle ambiguity:
 
 User: "I met Sarah Chen at the fintech conference yesterday. She's a PM at Stripe."
 
-Claude: Creates `sarah-chen.md`:
+Claude:
+1. Uses `linkedin-finder` agent to find LinkedIn URL
+2. Creates `sarah-chen.md`:
 ```yaml
 ---
 name: Sarah Chen
@@ -114,6 +120,7 @@ met_date: 2026-01-23
 met_context: Fintech conference
 company: Stripe
 title: PM
+linkedin: https://linkedin.com/in/sarachen
 created: 2026-01-24
 updated: 2026-01-24
 ---
