@@ -4,6 +4,15 @@ Mistakes I've made and what I learned. Reference this to avoid repeating errors.
 
 ---
 
+## 2026-01-26
+
+**Category:** Process (REPEAT)
+**Error:** Said "It's Sunday" without checking - it's Monday
+**Correction:** ALWAYS run `date` command FIRST before stating the day of week. Don't trust my internal calculations.
+**Fix:** This is a repeat of the 2026-01-24 correction. Must make this automatic - check date before ANY morning greeting or day-of-week statement.
+
+---
+
 ## 2026-01-24
 
 **Category:** Process

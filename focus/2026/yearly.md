@@ -17,7 +17,7 @@ Goals cascade down: Yearly → Quarterly → Monthly → Weekly
 ## Ventures
 
 - [ ] Indie Crates: Autonomous development pipeline running smoothly
-- [ ] GetMusic.fm: Define direction (build vs. shelve)
+- [ ] GetMusic.fm: Build out automation (releases, radio stations)
 - [ ] Chuck Vault: Personal OS fully operational
 
 ## Personal

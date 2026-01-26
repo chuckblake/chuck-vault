@@ -8,10 +8,10 @@ Quick reference dashboard. Detailed goals live in `focus/`.
 
 ## Now
 
-**Week 4 (Jan 20-26):** ClawdBot setup, health recovery
-→ [This week's details](../focus/2026/W04.md)
+**Week 5 (Jan 27 - Feb 2):** LEA finances, PR review process, delegation
+→ [This week's details](../focus/2026/W05.md)
 
-**Energy:** 5-6/10 | **Bandwidth:** Low | **Focus time:** Late morning
+**Energy:** Low (recovering) | **Bandwidth:** Moderate | **Focus time:** Late morning
 
 ---
 
@@ -24,8 +24,9 @@ Quick reference dashboard. Detailed goals live in `focus/`.
 
 ### Ventures
 - **Indie Crates** — PostHog-driven autonomous dev
-- **GetMusic.fm** — Exploring
+- **GetMusic.fm** — Building automation (releases, radio stations)
 - **Chuck Vault** — Personal OS setup
+- **ClawdBot** — On hold (security concerns, revisit in a few weeks)
 
 ### Personal
 - Health recovery + GLP-1 week 5
@@ -39,7 +40,7 @@ Quick reference dashboard. Detailed goals live in `focus/`.
 |-------|------|
 | 2026 Goals | [yearly.md](../focus/2026/yearly.md) |
 | January | [2026-01.md](../focus/2026/2026-01.md) |
-| This Week | [W04.md](../focus/2026/W04.md) |
+| This Week | [W05.md](../focus/2026/W05.md) |
 
 ---
 

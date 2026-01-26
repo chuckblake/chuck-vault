@@ -12,11 +12,28 @@ Regular review workflows and their outputs.
 
 ## What Happens in Each
 
-### Weekly
-- Process inbox
-- Review week's wins and challenges
-- Check goal progress
-- Plan next week's priorities
+### Weekly (GTD-Style)
+Full process in `.claude/skills/weekly-review.md`
+
+**Phase 1: Get Clear**
+- Process inbox to zero
+- Capture anything floating in head
+
+**Phase 2: Get Current**
+- Review last week (wins, what didn't happen)
+- Check waiting-on items
+- Area check-in (Work, Ventures, Personal)
+- Review people/follow-ups
+
+**Phase 3: Get Creative**
+- Check yearly/quarterly goals
+- Review someday/maybe
+- What would make next week great?
+
+**Phase 4: Set Up Next Week**
+- Create new weekly file
+- Set top 3 priorities
+- Update dashboard
 
 ### Monthly
 - Bigger picture patterns
