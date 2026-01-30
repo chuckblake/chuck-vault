@@ -17,6 +17,12 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
   - **chuck-vault**: `/Users/gomez/clawd` (`**/*.md`) — Chuck's personal knowledge base, notes, to-dos, and project info
 - Usage: `export PATH="$HOME/.bun/bin:$PATH" && qmd search "query" -c chuck-vault`
 
+## MTA R Train Times
+
+- Script: `/Users/gomez/clawd/scripts/mta_train_times.py`
+- **"Heading to work"** → `python3 scripts/mta_train_times.py work` (4th Ave-9th St → Manhattan)
+- **"Heading home"** → `python3 scripts/mta_train_times.py home` (Cortlandt St → Brooklyn)
+
 ## What Goes Here
 
 Things like:
