@@ -26,7 +26,7 @@ def get_app_password() -> str:
         )
     return result.stdout.strip()
 
-def send_email(to_addr: str, subject: str, body: str) -> bool:
+def send_email(to_addr: str, subject: str, body: str, html: bool = False) -> bool:
     """Send an email via Gmail SMTP."""
     try:
         app_password = get_app_password()
@@ -34,11 +34,13 @@ def send_email(to_addr: str, subject: str, body: str) -> bool:
             print("Error: Could not retrieve password from 1Password")
             return False
             
-        msg = MIMEMultipart()
+        msg = MIMEMultipart('alternative')
         msg['From'] = EMAIL
         msg['To'] = to_addr
         msg['Subject'] = subject
-        msg.attach(MIMEText(body, 'plain'))
+        
+        content_type = 'html' if html else 'plain'
+        msg.attach(MIMEText(body, content_type))
         
         with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
             server.starttls()
@@ -53,7 +55,8 @@ def send_email(to_addr: str, subject: str, body: str) -> bool:
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:
-        print("Usage: send_email.py <to> <subject> <body>")
+        print("Usage: send_email.py <to> <subject> <body> [--html]")
         sys.exit(1)
     
-    send_email(sys.argv[1], sys.argv[2], sys.argv[3])
+    is_html = "--html" in sys.argv
+    send_email(sys.argv[1], sys.argv[2], sys.argv[3], html=is_html)
