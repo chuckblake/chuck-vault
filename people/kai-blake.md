@@ -32,7 +32,7 @@ interests: []
 important_dates: []
 
 created: 2026-01-24
-updated: 2026-01-24
+updated: 2026-01-29
 last_contact:
 ---
 
@@ -44,7 +44,8 @@ My child.
 
 ## Notes
 
--
+**School:** LaGuardia High School (LGA)
+**Emergency Contact:** Main Office — 212-496-0700
 
 ## Contact Log
 
