@@ -1,5 +1,10 @@
 # Self-Review Log
 
+## 2026-01-30
+
+[confidence] MISS: Overwrote working OP_SERVICE_ACCOUNT_TOKEN with empty value by trying to read from nonexistent file
+FIX: Trust the gateway environment — don't override env vars with fallback reads from files that may not exist
+
 Periodic reflection on decisions, assumptions, and blind spots.
 
 ---
