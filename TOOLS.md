@@ -8,6 +8,15 @@ Skills define *how* tools work. This file is for *your* specifics — the stuff 
 - Auth: Service account token via `OP_SERVICE_ACCOUNT_TOKEN` env var
 - Skill: `/Users/gomez/clawd/skills/1password/SKILL.md`
 
+## qmd (Markdown Search)
+
+- CLI: `~/.bun/bin/qmd`
+- Skill: `/Users/gomez/clawd/skills/qmd-external/SKILL.md`
+- Index: `~/.cache/qmd/index.sqlite`
+- Collections:
+  - **chuck-vault**: `/Users/gomez/clawd` (`**/*.md`) — Chuck's personal knowledge base, notes, to-dos, and project info
+- Usage: `export PATH="$HOME/.bun/bin:$PATH" && qmd search "query" -c chuck-vault`
+
 ## What Goes Here
 
 Things like:
