@@ -1,5 +1,10 @@
 # HEARTBEAT.md
 
+## Node Approvals (every heartbeat)
+
+1. Check `nodes pending` for pairing requests
+2. If pending: alert immediately — these expire quickly
+
 ## Git Sync (every heartbeat)
 
 1. `git pull` - get latest changes
