@@ -1,0 +1,406 @@
+Delivered-To: chuck@getlea.io
+Received: by 2002:ab4:ae44:0:b0:2bf:732b:efd9 with SMTP id hh4csp1821378ecb;
+        Mon, 26 Jan 2026 11:05:02 -0800 (PST)
+X-Received: by 2002:a17:903:234a:b0:29f:2df2:cf49 with SMTP id d9443c01a7336-2a8452dc528mr42765345ad.5.1769454301832;
+        Mon, 26 Jan 2026 11:05:01 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1769454301; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Lq/WBbOpadQrgZESusivMecnu4e0JvtUR5r0T6DkUADP97cnLjsFCChXtxeNtIImON
+         YF/WVV8u9SVSjvoc1I10cAbcPh+fGzBQbWNzNlHi6xuMzsq+Q+Jyc9JJH6A0napzivW1
+         A/TjsdGEhSWw1qo+N+9gvWCbuO0tl46QHgII1j7rLaY0OeM/F1KVLYoKG0Zj2VLNMUx+
+         lG6Jq4xwXyGhzZ2qVzDPziQIOinYEecHklGQeML0pic0Fa6PMKfWOacUTDW7lgMwYV/H
+         4lvZs5wbA9R2PnNDhl+pOBYYeeF5NdN4Y40VYWEdoiIPalfZjYB6+bzuT2jW/PFobiDs
+         qpJg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:feedback-id:subject:message-id:mime-version:from:date
+         :content-transfer-encoding:dkim-signature;
+        bh=Sb6/zsY30mZPlkNZpmqq8ycV8mxBXZQCw/FZfp6F4mE=;
+        fh=oGsUljEHRG9YI9c5KSFSJbCOI+fk9UYgNe6l82uHwq4=;
+        b=QXxDbSgwBQU2h3SaAbwHG6pTuFHrY/nt+fqg6w7vbFY8WEKgkU4estEA/qBvQmI0QS
+         YJUdIoWrJXZbIR1MJMFIlKjKwfF6DKILcFpx4dJp/IDpLq3a+gebKy9S7eTzay4ermZj
+         VQe7XiFBHX5fVIU9PkP8inHpt6PHRCLbqwy22iXAE+Lm/4lWLMb1+k9ZTlSLaUMK1Ty1
+         7vLM95zBwUvdZAnCQyUlnyBTRommFjTD6TLHjHRKwD3h4RcDAdkUoQSf2yQ1QL4uOQ3h
+         mC2FJlY+9BcVJCvzrcLTx/HGgCqy6XkRLhkRXFMA4ykaCIoBomjGSkuqBexj1gT1qiJr
+         mK/g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@zoom.us header.s=sg header.b=L5PH5fIl;
+       spf=pass (google.com: domain of bounces+15570388-5260-chuck=getlea.io@bounce-sg.zoom.us designates 149.72.196.70 as permitted sender) smtp.mailfrom="bounces+15570388-5260-chuck=getlea.io@bounce-sg.zoom.us";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us
+Return-Path: <bounces+15570388-5260-chuck=getlea.io@bounce-sg.zoom.us>
+Received: from o2.sg.zoom.us (o2.sg.zoom.us. [149.72.196.70])
+        by mx.google.com with ESMTPS id d9443c01a7336-2a802dccbacsi181064245ad.67.2026.01.26.11.05.01
+        for <chuck@getlea.io>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 26 Jan 2026 11:05:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+15570388-5260-chuck=getlea.io@bounce-sg.zoom.us designates 149.72.196.70 as permitted sender) client-ip=149.72.196.70;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@zoom.us header.s=sg header.b=L5PH5fIl;
+       spf=pass (google.com: domain of bounces+15570388-5260-chuck=getlea.io@bounce-sg.zoom.us designates 149.72.196.70 as permitted sender) smtp.mailfrom="bounces+15570388-5260-chuck=getlea.io@bounce-sg.zoom.us";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zoom.us
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=zoom.us;
+	h=content-transfer-encoding:content-type:date:from:mime-version:subject:
+	to:cc:content-type:date:from:subject:to;
+	s=sg; bh=Sb6/zsY30mZPlkNZpmqq8ycV8mxBXZQCw/FZfp6F4mE=;
+	b=L5PH5fIlfdBGZF3tV6gpfojZOUeWPSVKhM/LE2MrnpxSgQe95n3sPSYs185+wyYcXuMm
+	NeW4hLJYINHeQhUdx2erlkULeCepOCoTCRurOh54fHo274ooal5bkZsXYUaeeah0XB2uyl
+	99C5IPY3fbyOEMvDBJOKGYXwznibasr7zoW+GgXWQ0U04DHRZpvQ1WLjM3HL+xwgE31lME
+	WGmOx08g6zccoOvmqla71a0jvKWOUi/eDLLZEr7zjmMZN6RFpBt35G7v0jKVpTaJloAnO6
+	FTme7gvwfEB738xp/Am21HCNE3m4gP6ngONOG4g297zdmVbZH+v9SIidM/8DtRwA==
+Received: by recvd-546686db75-g4p4t with SMTP id recvd-546686db75-g4p4t-1-6977BADC-BA
+	2026-01-26 19:05:00.798873017 +0000 UTC m=+3444843.470472351
+Received: from MTU1NzAzODg (unknown)
+	by geopod-ismtpd-13 (SG) with HTTP
+	id 4fYHL8yBQAWmm_xKym892g
+	Mon, 26 Jan 2026 19:05:00.767 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Date: Mon, 26 Jan 2026 19:05:00 +0000 (UTC)
+From: Zoom <no-reply@zoom.us>
+Mime-Version: 1.0
+Message-ID: <4fYHL8yBQAWmm_xKym892g@geopod-ismtpd-13>
+Subject: Meeting assets for Ben Cohen: 30 minutes with Chuck are ready!
+Feedback-ID: OJxhIC1QRUyhNItYTL68Yg:::zoom.us
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EV=2FCrMu5=2F7JiV4gIYr+InI6MELJgR7AD1buWM99=2FR73ZFoqqpDBbZ3TVvT?=
+ =?us-ascii?Q?+Lil2N=2FHUwG3rbVCZ6itE+9GEwKi+6Rpsg+oBSB?=
+ =?us-ascii?Q?Xd=2Facmf64qCGV0ZRSGQZ7DifIl4vStrMzXrsYWT?=
+ =?us-ascii?Q?M4CCV3uDFO9zEWgksOUJTB3JQp39khS8HVKTW4a?=
+ =?us-ascii?Q?FlRIWaZkn2ZJu=2F=2FLIPxUbtoehLMpXcuSGdvMeGU?=
+ =?us-ascii?Q?dabXILYfJE3Q3pcXIf2mQQ=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3Bv46nKsni=2FHH2pLGyGWW02ygoM=2FbylY6I8LZp?=
+ =?us-ascii?Q?W=2F1MdyIGdG4Nt+kQHfn2DYbUWzm6IJkuk76Lb+6?=
+ =?us-ascii?Q?6iXlV8OFckA1mN0d3LVjbObha=2F2NZ6FGsBE3Dqz?=
+ =?us-ascii?Q?l+GVfHdxl0r84bZWscpr7XIvUCK9b5moXCRcIgV?=
+ =?us-ascii?Q?I8DhNLX8Y3fsmbvTmAzBZaqZ=2Fy2TsH2NjC9jn8+?=
+ =?us-ascii?Q?9280AP4p7Suhr9f2fFQ6CoUQMaDi=2F8KA3VKNu=2FV?=
+ =?us-ascii?Q?v6Ug0JZL13t=2FfAODRudWIKxloc8FC2WXRaxDYm5?=
+ =?us-ascii?Q?AsUOYkMGJu7EvDVtlOYx9WoBjHNFLyc9LWcF3es?=
+ =?us-ascii?Q?kCT8jR32D1MtWpZhQXpoEbGpXiqgXoYya7ZIjui?=
+ =?us-ascii?Q?68ohBd7RI0UQ128Q6j3WRyIh1YnixrFOOGBgkF0?=
+ =?us-ascii?Q?28YrJ0yHONBQVG8LCLRP0jU+vCGpdJOuGn2qXoc?=
+ =?us-ascii?Q?waJ9b1eAvZLLkZlnBuf3fsApI5CYYauED5egKAw?=
+ =?us-ascii?Q?6ohTBSQguS2JmjURL4YhSKkYEnYQTXGaZ9ixxvW?=
+ =?us-ascii?Q?nBNptaW836C1M14RBwv72fxT6dXvutx0jigiBE9?=
+ =?us-ascii?Q?jaJvFbPUmcYjHK4yU=2Ffm8pSQ4qxkJ7gUS30S8Qp?=
+ =?us-ascii?Q?B7Y0xYbP1Ng0=2FWFRnbWXGWPxAvXYr0D0WDc53L=2F?=
+ =?us-ascii?Q?rDZhTNFVsyeX=2FIh9knbar4A5DI8c7VFtve4nT0N?=
+ =?us-ascii?Q?HsFD4mGlpAOt2p=2FDgRU2OkTFo5UNIi+HeR41EH=2F?=
+ =?us-ascii?Q?OG+zXPgY=2FS4kk7JjzmUJogTn6TE=3D?=
+To: chuck@getlea.io
+X-Entity-ID: u001.6mUY7xs+tNnsNuz7tuXEzQ==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type=
+" />
+    <style type=3D"text/css">
+        #branding-doc-summary table {
+            border-collapse: collapse;
+        }
+
+        #branding-doc-summary th,
+        #branding-doc-summary td {
+            border: 1px solid #000000;
+        }
+
+        #branding-doc-summary li.doc-todo {
+            list-style: none;
+        }
+
+        #branding-doc-summary ul li {
+            min-height: 20px;
+        }
+
+        #branding-doc-summary ul li:has(input) {
+            list-style: none;
+        }
+    </style>
+</head>
+<body style=3D"height: 100% !important; width: 100% !important; background-=
+color: #F7F9FA; margin: 0; padding: 0;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" st=
+yle=3D"font-size: 14px;color:#131619;background-color: #F7F9FA; width: 100%=
+; height: 100%;padding: 20px 0;">
+<tr><td style=3D"vertical-align: top">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" st=
+yle=3D"width: 720px;font-size: 14px;background-color: #f4f5f9;background: #=
+ffffff;border-radius: 20px;">
+<tr><td style=3D"vertical-align: top;padding: 0 48px;font-family:Arial,Helv=
+etica,sans-serif;">
+    <!-- Preheader -->
+    <div class=3D"header" style=3D"padding: 18px 0;">
+        <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%">
+            <tr>
+                <td align=3D"left" valign=3D"middle">
+                    <a href=3D"https://zoom.com" style=3D"text-decoration: =
+none;">
+                        <img src=3D"https://us06st1.zoom.us/static/6.3.5170=
+0/image/new/ZoomLogo6.png" width=3D"88" style=3D"display: block;width: 88px=
+;height: 20px;border: none;outline: none;text-decoration: none;-ms-interpol=
+ation-mode: bicubic;" />
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <table style=3D"width: 100%">
+        <tr>
+            <td style=3D"border-top:1px solid #DFE3E8;"></td>
+        </tr>
+    </table>
+    <div style=3D"font-size: 14px;">
+        <p class=3D"first-level-title" style=3D"margin: 24px 0;font-size: 2=
+4px;font-weight: 700;">
+            Meeting assets for Ben Cohen: 30 minutes with Chuck are ready!
+        </p>
+    </div>
+
+
+
+        <p class=3D"second-level-title" style=3D"margin: 24px 0;font-size: =
+20px;font-weight: bold;">
+Meeting summary        </p>
+                    <p id=3D"branding-doc-summary" style=3D"margin: 10px 0;=
+ font-size:14px;">
+                        <h2 id=3D"quick-recap" style=3D"font-size:16px;line=
+-height:24px">Quick recap</h2>
+<p style=3D"font-size:14px;line-height:20px">Ben shared his experience work=
+ing on AI products at Meta and discussed his new venture focused on observa=
+bility for AI agents, while explaining his approach to monitoring and optim=
+izing model performance. Chuck described Leah&#39;s work building tools for=
+ wealth management firms, highlighting their use of AI for document extract=
+ion and data automation, as well as their integration with various platform=
+s and systems. The two discussed AI model requirements, validation methods,=
+ and document processing capabilities, with Ben demonstrating a platform fo=
+r analyzing AI models and Chuck offering to make industry connections for p=
+otential collaboration.</p>
+<h2 id=3D"next-steps" style=3D"font-size:16px;line-height:24px">Next steps<=
+/h2>
+<p style=3D"font-size:14px;line-height:20px">Next steps were not generated =
+due to insufficient transcript.</p>
+<h2 id=3D"summary" style=3D"font-size:16px;line-height:24px">Summary</h2>
+<h3 id=3D"ai-product-development-insights" style=3D"font-size:14px;line-hei=
+ght:20px">AI Product Development Insights</h3>
+<p style=3D"font-size:14px;line-height:20px">Ben, who recently left Meta, d=
+iscussed his experience working on the AI assistant team for smart glasses =
+and app products, focusing on infrastructure around models. He highlighted =
+the limitations of AI and the challenges of building AI products, which ins=
+pired him to start his own company focused on scaling observability for con=
+text health in AI agents. Ben expressed interest in learning more about Chu=
+ck&#39;s project and priorities.</p>
+<h3 id=3D"ai-driven-wealth-management-tools" style=3D"font-size:14px;line-h=
+eight:20px">AI-Driven Wealth Management Tools</h3>
+<p style=3D"font-size:14px;line-height:20px">Chuck Blake, CTO of Leah, expl=
+ained that his company builds tools for wealth management firms, focusing o=
+n data extraction from documents like brokerage statements. He described th=
+eir process of using AI to capture and move data, saving clients time by au=
+tomating manual work. Chuck mentioned they currently use Reducto for docume=
+nt extraction and are working on improving data validation methods. He also=
+ detailed their integration with Ignite, a cloud storage platform, which al=
+lows for automated file processing and data extraction.</p>
+<h3 id=3D"data-integration-and-document-automation" style=3D"font-size:14px=
+;line-height:20px">Data Integration and Document Automation</h3>
+<p style=3D"font-size:14px;line-height:20px">Chuck discussed a use case inv=
+olving the generation of deliverable documents and data extraction in CSV o=
+r Excel formats, with no agent logic involved. He mentioned ongoing efforts=
+ to integrate data back into Salesforce and other financial planning tools,=
+ aiming for tighter integrations. Chuck highlighted that the quality of mod=
+els and setting up the system for user adoption are key challenges, while t=
+he webhook system, a recent addition, has been working well. He also shared=
+ an example of a client who would have hired two full-time employees to han=
+dle document renaming and data extraction, illustrating the value of their =
+solution.</p>
+<h3 id=3D"optimizing-agent-performance-metrics" style=3D"font-size:14px;lin=
+e-height:20px">Optimizing Agent Performance Metrics</h3>
+<p style=3D"font-size:14px;line-height:20px">Chuck and Ben discussed the va=
+lue of organizing files with desired naming conventions to streamline manua=
+l work for a team. Ben explained his work on creating scalable methods to m=
+onitor, evaluate, and optimize the performance of agents using LLMs, focusi=
+ng on deriving metrics like recall and precision to enhance operational con=
+fidence. He introduced the concept of &#34;traces&#34; to visualize actions=
+ taken by agents for a single task, allowing for task-level and subquery-le=
+vel metrics to assess efficiency and action effectiveness. Ben provided an =
+example of a Q&amp;A task involving two Chinese cities, illustrating how re=
+quirements were mapped to information and how metrics like recall (50%) and=
+ precision were calculated to measure task performance.</p>
+<h3 id=3D"ai-document-requirements-monitoring" style=3D"font-size:14px;line=
+-height:20px">AI Document Requirements Monitoring</h3>
+<p style=3D"font-size:14px;line-height:20px">Ben and Chuck discussed how AI=
+ models determine requirements based on tasks and context, with Ben explain=
+ing that the models can derive metrics and set alerts for real-time monitor=
+ing. Chuck raised a question about how the AI would know if it missed somet=
+hing in a document, and Ben suggested creating a natural language task base=
+d on the document type to help the AI formulate its requirements. They agre=
+ed that this approach could provide a more intelligent way to validate docu=
+ments and identify issues quickly.</p>
+<h3 id=3D"ai-document-extraction-platform-demo" style=3D"font-size:14px;lin=
+e-height:20px">AI Document Extraction Platform Demo</h3>
+<p style=3D"font-size:14px;line-height:20px">Ben demonstrated a platform he=
+ developed in December for analyzing and testing AI document extraction mod=
+els, which can set alerts on metrics and perform A/B testing on historical =
+traffic. Chuck shared information about two companies, Zenguard and Wallaro=
+o, that he worked with through an accelerator program, and offered to make =
+introductions if Ben was interested. Ben confirmed he has a few early beta =
+users testing the platform, and Chuck expressed interest in learning more a=
+bout potential applications for his team.</p>
+
+                    </p>
+                <div style=3D"margin: 16px 0;color: #6E7680;font-size: 12px=
+;font-weight: 400;" class=3D"tips-text">
+                        <p style=3D"margin: 10px 0;">AI can make mistakes. =
+Review for accuracy.</p>
+
+                        <table role=3D"presentation" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" style=3D"margin: 10px 0">
+                            <tr>
+                                <td valign=3D"middle" style=3D"font-family:=
+Arial,Helvetica,sans-serif;">
+Please rate the accuracy of this summary.                                </=
+td>
+                                <td valign=3D"middle" style=3D"padding-left=
+: 8px;font-family:Arial,Helvetica,sans-serif;">
+                                    <a href=3D"https://us06web.zoom.us/meet=
+ing/summary/feedback?meetingId=3D6p41ZvNqQ5OKqUM%2FkYvOeg%3D%3D&email=3DY2h=
+1Y2tAZ2V0bGVhLmlv&feedback=3Dgood" style=3D"display: inline-block; vertical=
+-align: middle;margin: 0 6px 0 14px; text-decoration: none;">
+                                        <img src=3D"https://us06st1.zoom.us=
+/static/6.3.51700/image/summary/feedback_good_new.png" width=3D"24" height=
+=3D"24" alt=3D"feedback good" style=3D"display: block;border: 1px solid #93=
+9BA4;border-radius: 8px;outline: none;-ms-interpolation-mode: bicubic;" />
+                                    </a>
+                                    <a href=3D"https://us06web.zoom.us/meet=
+ing/summary/feedback?meetingId=3D6p41ZvNqQ5OKqUM%2FkYvOeg%3D%3D&email=3DY2h=
+1Y2tAZ2V0bGVhLmlv&feedback=3Dbad" style=3D"display: inline-block; vertical-=
+align: middle; text-decoration: none;">
+                                        <img src=3D"https://us06st3.zoom.us=
+/static/6.3.51700/image/summary/feedback_bad_new.png" width=3D"24" height=
+=3D"24" alt=3D"feedback bad" style=3D"display: block;border: 1px solid #939=
+BA4;border-radius: 8px;outline: none;-ms-interpolation-mode: bicubic;" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                </div>
+
+            <div style=3D"margin: 20px 0">
+                        <a href=3D"https://us06web.zoom.us/launch/csd?origi=
+n=3Dhttps%3A%2F%2Fus06web.zoom.us%2Fuser%2Fmeeting%2Fsummary%3FmeetingId%3D=
+6p41ZvNqQ5OKqUM%252FkYvOeg%253D%253D%26summaryId%3Dmss_9cwHfLXIRbKDl_XNP0YW=
+0w%26fileId%3D_pJSA3bET8SAvCSlIGfssw&amp;option=3D6p41ZvNqQ5OKqUM%2FkYvOeg%=
+3D%3D" class=3D"white-btn" style=3D"text-decoration: none;display: inline-b=
+lock;color: #000000;padding: 6px 12px;margin-right: 8px;border-radius: 8px;=
+font-size: 14px;font-weight: 400;border: 1px solid #939BA4;">
+Edit summary                        </a>
+            </div>
+        <table style=3D"padding-top: 24px;width: 100%">
+            <tr>
+                <td style=3D"border-top:1px solid #DFE3E8;"></td>
+            </tr>
+        </table>
+
+    <div style=3D"color: #6e7680;font-weight: 400;font-size: 14px; padding:=
+ 24px 0;font-family:Arial,Helvetica,sans-serif;">
+Thank you,    </div>
+    <div style=3D"color: #6e7680;font-weight: 400;font-size: 14px;font-fami=
+ly:Arial,Helvetica,sans-serif;">
+        <div style=3D"color:#2A2B2D">Zoom Support Team</div>
+        <div><a style=3D"color:#0D6BDE" href=3D"https://support.zoom.us">ht=
+tps://support.zoom.us</a></div>
+    </div>
+    <table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center" style=3D"padding-top: 48px;">
+        <tr>
+            <td align=3D"center" style=3D"padding: 0 8px;">
+                <a class=3D"footer-link-img" href=3D"https://www.linkedin.c=
+om/company/zoom/" style=3D"text-decoration: none;display: table-cell;text-a=
+lign: center;vertical-align: middle;">
+                    <img alt=3D"LinkedIn" border=3D"0" height=3D"32" width=
+=3D"32" src=3D"https://file-paa.zoom.us/kNH2urxhRLqXnWNb_EN1lQ/MS4yLoS79VBM=
+36fz9x0Qu-Vm3_05uKEgidDZkSkBh6nf5jHh/Linkedin.png" style=3D"display: inline=
+-block;-ms-interpolation-mode: bicubic;border: none;" />
+                </a>
+            </td>
+            <td align=3D"center" style=3D"padding: 0 8px;">
+                <a class=3D"footer-link-img" href=3D"https://twitter.com/zo=
+om" style=3D"text-decoration: none;display: table-cell;text-align: center;v=
+ertical-align: middle;">
+                    <img alt=3D"X" border=3D"0" height=3D"32" width=3D"32" =
+src=3D"https://file-paa.zoom.us/A9z6enYnRciVty2WD69K5Q/MS4yLlA3EEXVxtd5BnQv=
+HzaVmWfiw_MyODrLSm1FTgct1k_x/X.png" style=3D"display: inline-block;-ms-inte=
+rpolation-mode: bicubic;border: none;" />
+                </a>
+            </td>
+            <td align=3D"center" style=3D"padding: 0 8px;">
+                <a class=3D"footer-link-img" href=3D"https://instagram.com/=
+zoom" style=3D"text-decoration: none;display: table-cell;text-align: center=
+;vertical-align: middle;">
+                    <img alt=3D"Instagram" border=3D"0" height=3D"32" width=
+=3D"32" src=3D"https://file-paa.zoom.us/6OcdBBJUSUO39GlRevwBpw/MS4yLhjC22e6=
+R_ad3qd4NWLCKthWlIu8Y716iX4jSiBD42Rx/Instagram.png" style=3D"display: inlin=
+e-block;-ms-interpolation-mode: bicubic;border: none;" />
+                </a>
+            </td>
+            <td align=3D"center" style=3D"padding: 0 8px;">
+                <a class=3D"footer-link-img" href=3D"https://www.facebook.c=
+om/zoom" style=3D"text-decoration: none;display: table-cell;text-align: cen=
+ter;vertical-align: middle;">
+                    <img alt=3D"Facebook" border=3D"0" height=3D"32" width=
+=3D"32" src=3D"https://file-paa.zoom.us/XiUNdDxVRN227pWtZejqng/MS4yLjBX8SUl=
+Voub9cJv-VllS5alt7U-cZRNnpyJTwbWNBPX/Facebook.png" style=3D"display: inline=
+-block;-ms-interpolation-mode: bicubic;border: none;" />
+                </a>
+            </td>
+            <td align=3D"center" style=3D"padding: 0 8px;">
+                <a class=3D"footer-link-img" href=3D"https://www.youtube.co=
+m/@Zoom" style=3D"text-decoration: none;display: table-cell;text-align: cen=
+ter;vertical-align: middle;">
+                    <img alt=3D"YouTube" border=3D"0" height=3D"32" width=
+=3D"32" src=3D"https://file-paa.zoom.us/AQII00caTNmcRtOxZA9CHw/MS4yLluoNlum=
+bwBzheCXQU4wTLFvBAvxtt0j2Se_SPtGrimT/YouTube.png" style=3D"display: inline-=
+block;-ms-interpolation-mode: bicubic;border: none;" />
+                </a>
+            </td>
+            <td align=3D"center" style=3D"padding: 0 8px;">
+                <a class=3D"footer-link-img" href=3D"https://blog.zoom.us/"=
+ style=3D"text-decoration: none;display: table-cell;text-align: center;vert=
+ical-align: middle;">
+                    <img alt=3D"Blog" border=3D"0" height=3D"32" width=3D"3=
+2" src=3D"https://file-paa.zoom.us/y3B837SCRhewJhRfIQAbNQ/MS4yLjSNE-R1r6XOy=
+5Splz-i8Kl5uvaFt1JIWRutwY3W9uAP/Blog.png" style=3D"display: inline-block;-m=
+s-interpolation-mode: bicubic;border: none;" />
+                </a>
+            </td>
+        </tr>
+    </table>
+    <table style=3D"padding-top: 12px; padding-bottom: 16px;" role=3D"prese=
+ntation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center">
+        <tr>
+            <td align=3D"center" style=3D"font-family:Arial,Helvetica,sans-=
+serif;">
+                <a href=3D"https://zoom.com" style=3D"color:#0D6BDE; displa=
+y: block; text-decoration: none; padding: 16px 0 4px 0;"
+                target=3D"_blank">Zoom.com</a>
+                <a href=3D"https://www.google.com/maps/place/55+Almaden+Blv=
+d,+San+Jose,+CA+95113/@37.3328541,-121.897097,17z/data=3D!3m1!4b1!4m5!3m4!1=
+s0x808fcca40adf3cb7:0x5a2d33d3593e0a33!8m2!3d37.3328541!4d-121.8949083" sty=
+le=3D"color: #000000;display: block;font-size: 12px;text-decoration: none;"=
+ target=3D"_blank">
+55 Almaden Blvd<br/>San Jose, CA 95113                </a>
+                <p style=3D"padding: 16px 0 4px 0;">
+                    <a href=3D"tel:1-888-799-9666" style=3D" text-decoratio=
+n: none; color: #0D6BDE;">+1.888.799.9666</a>
+                </p>
+                <p style=3D"font-size: 12px;">=A9 2026 Zoom Communications,=
+ Inc.</p>
+            </td>
+        </tr>
+    </table>
+</td></tr></table></td></tr></table>
+</body>
+</html>

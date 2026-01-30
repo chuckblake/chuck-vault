@@ -1,0 +1,343 @@
+Matt Ober  0:01  
+Hello, Matt, sir,
+
+Max Klein  0:04  
+thanks for rubbing that blue sky and asshole,
+
+Matt Ober  0:10  
+I got stuck last minute with a plus one, and so I figured I'd just go for a walk and we could have our call. Multitasking. Yeah, wasn't, wasn't planned, but life, I guess, yeah,
+
+Max Klein  0:27  
+everything good in California.
+
+Matt Ober  0:33  
+I mean, 75 what can I complain about?
+
+Max Klein  0:37  
+I know. All right, so couple, couple quick, couple quick things. When I texted you originally, we are, I want to go through this kind of mission, wealth m&a use case, and what thoughts it spurred for us. And then I also want to talk through, like, Ignite, go to market, because that's, that's our top priority right now, right? And so, so let's, let's actually, let's actually talk about the Ignite stuff first, and then we can do the mission after, on so on Egnyte. Like, what's changed? I guess what's changed is we now have this extremely positive feedback from all the companies that are using our Egnyte web hooks, and it's we know how to set it up. It's a little bit different firm to firm. But like, those are differences that we're learning how to navigate really well. Can you
+
+Matt Ober  1:45  
+give me just a quick 30 seconds, like, what is the pitch and what they're getting out of it?
+
+Max Klein  1:50  
+They so they get for all of prospecting, Client Onboarding, financial planning, they all of their admins are currently spending time opening documents, reclassifying them, renaming them, filing, extracting data out, and we can take care of all that. So essentially, we add operational capacity to their team without them adding headcount and without them using a single screen. Got it?
+
+Matt Ober  2:18  
+Can you do you have the Do you have quotes and stuff from everybody that you're allowed to share.
+
+Max Klein  2:23  
+Oh, yeah, I have tons. So
+
+Matt Ober  2:25  
+really, all you need to do is get in front of every Egnyte customer that's an RIA or broker dealer.
+
+Max Klein  2:31  
+That's right, and and so my I haven't had a list of these ignite customers until like 25 minutes ago.
+
+Matt Ober  2:41  
+Oh, well, I think you should be doing a cold email campaign campaign.
+
+Max Klein  2:45  
+Yeah, sure. So I have a list of like 120 of these guys that are all, like, somewhat reasonably sized, and what I want to do is I'm just going to figure out how to get in touch with all them and
+
+Matt Ober  3:02  
+old email campaigns. I think you could go with the phone calls aspect. But also, like, are they all congregate in specific like regions or areas, like outside of New York?
+
+Max Klein  3:14  
+They're all over the place. Got it?
+
+Matt Ober  3:17  
+They're really do like a road show to see them in person.
+
+Max Klein  3:21  
+Yeah, they're really all over the place, but there's so there's a few ways we can get in touch with them, cold email, phone calls. We're going to obviously check LinkedIn for mutual connections, because very possible we know we know people. And then there is an Egnyte account manager for every single one of these companies as well. So for some of them, I'm going to try to get an intro through the Ignite people.
+
+Matt Ober  3:45  
+Yeah, you got to make those guys your best friends,
+
+Max Klein  3:48  
+correct? Like,
+
+Matt Ober  3:49  
+offer to, like, do, like, a joint drinks or dinners in their region. They invite you pay.
+
+Max Klein  3:57  
+Yeah, so I they're going to t3 and I am going, I pitched them today to do, like, a joint dinner or happy hour that we co sponsor.
+
+Matt Ober  4:11  
+Yeah, I think that's a no brainer. I would say, like, if you didn't have all of them, like, the one thing that I've heard for some of our bigger company companies is LinkedIn ads work really well if you know the people, if you know what companies you're trying to get in front of, like you're trying to get in front of people in financial services at Egnyte Steph from Portage was saying this on a board call that, like, the success for LinkedIn ads is really, really really good if you know exactly who you're trying to get in front of. And she was, like, she went over an example of like, they're trying to get in front of, like, these three company employees in these three companies. So, like, if that's not the exhaustive list, or as you start to think about this, it's not going to be good to be like, I need to be in front of all wealth managers. No, no,
+
+Max Klein  4:59  
+but Matt. We like but Matt, we have a list of 120 domains, right? So, like you
+
+Matt Ober  5:03  
+already know who you want to be in front of, so if you want to be in their face whenever they're on LinkedIn, LinkedIn, maybe it's worth experimenting that way. I would still go the cold email and phone call route first, or maybe or test the waters a little bit with it. But I've heard good things multiple times now about this, okay,
+
+Max Klein  5:23  
+yeah, that makes sense. And then it's like, hyper targeted, because we know they use Ignite, right? And, yeah, okay, yeah, that's actually a good idea.
+
+Chuck Blake  5:34  
+We can even target them with the use case, yeah,
+
+Matt Ober  5:40  
+I actually, sorry, I'll bring it up later when we get further along.
+
+Max Klein  5:46  
+Okay, so then there are a couple of companies on the list that are big, like SCS, which is part of focus, Carson wealth. LEA is,
+
+Matt Ober  5:56  
+what is wealth enhancement on there?
+
+Max Klein  5:59  
+No, okay. Do you know them?
+
+Matt Ober  6:03  
+Well, one of our LPs, full circle wealth, which I don't know if I ever introduced you to Brent. He just told me that he's being acquired by wealth enhancement, which is $140 billion firm. Yeah. So I gave him the soft pitch on you today, like mass transition, everything. He didn't bite on it. But I don't know if he fully understood it. But like, I was like, in my mind, I was like, Oh, this is a great example. Here's one of our LPS being acquired, moving from, you know, where, I don't know if he has to, I don't think he has to change custodians as part of the acquisition. I'm sure there's a bunch of fucking work.
+
+Max Klein  6:38  
+There's definitely a ton of work. And if it's anything like the mission wealth use case, they need to, like, identify all these documents that they that puts them into compliance, and he's going to have to do that work, or they're going to have to do that work.
+
+Matt Ober  6:52  
+Manual. Can you maybe give me something like, you know, like, we just did this for a recent client who made an acquisition. These were, like, the three things that I'm sure you're going to be going through. And then let me just introduce you. Let me just send it to Brent and see if he wants to have a conversation. Because, like, I'm sure he, he already is bringing in another one of our portfolio companies for something else. So, like, he's not a allergic to, like, trying to move the ball forward.
+
+Max Klein  7:21  
+Okay, and wealth enhancement, I actually had a couple of meetings with somebody there, and they were just like, the person that I talked to, only wanted to talk about meeting note takers. So that wealth enhancement group is, like, extremely behind the times.
+
+Matt Ober  7:42  
+No, it doesn't surprise me. And, well, they're paying a shit ton of money to buy people, is what I Oh, they,
+
+Max Klein  7:50  
+I mean, they've raised a crazy amount of money, and they have, like, 140 billion undermanned, yeah, so they're, like, very large. But anyway, I will, I'll send you, I'll send you a note about that, but, but like, I think, yeah, so the other companies on the list that are like, big wealth Spire, a pollen who I'm already in touch with, and but those are really like the the megas, Carson, Lea, dot wealth, fire, SCS, which is part of focus. And, yeah, those are, those are, like, the the megas that are, they're using it. They don't have EP Well,
+
+Matt Ober  8:32  
+EP wealth, yeah, do you do business with EP wealth?
+
+Max Klein  8:36  
+No, I got, I got, not stunt, not block, but I didn't make it anywhere because my champion, both of my champions, left the company.
+
+Matt Ober  8:45  
+You know, they're one of our LPS now, right?
+
+Max Klein  8:47  
+I do through OAP dove.
+
+Matt Ober  8:49  
+So when's your next San Diego trip, April? Okay, why don't do you golf? No, neither do I very well, but we should try to do something, because I went golfing with Nick from Opto on Friday, and he knows every single person at EP wealth, and they all love to golf there, but like, they have, like, some golf event randomly that Friday, so we didn't take them out, but he wants to have me go out with them and invite some of the guys. So maybe we can get you a new champion. If I tell them what type of person we want to meet,
+
+Max Klein  9:25  
+that would be great. I
+
+Matt Ober  9:27  
+mean, we can also do lunch, but you get more quality time with somebody if you're out there on the golf course.
+
+Max Klein  9:33  
+I'm down to play golf for money. There you
+
+Matt Ober  9:38  
+go. So, April, yeah, April,
+
+Max Klein  9:43  
+so, all right, so, so that's that, like, you know, join events, asking for some strategic intros, paying them for some strategic intros, giving them a cut of the action, if, you know, as we start to have get more of these guys on board and like the LinkedIn ads and then LinkedIn and cold email. I think there's a there's a lot of we're gonna we need to do all these things. But now that we have the list, we're in a much better, much better spot. Okay, cool, do. Okay, so let's, let us talk through, let us talk through this mission wealth thing. So, so. So what happened is our champion got the head of M A integrations to to work with us, because the end in their use cases, after they do one of these acquisitions, they have to identify four specific documents and have them on file for every single household. Obviously, the way they do that is like, hunt and peck inside of Ignite to find the files. They like, take the old people's the acquired firms, you know, client file, drive, copy it into Ignite, and then they just ask them a couple questions, and then go through it manually to try to find these documents, the so. So what they were asking us to do is like, can you, you know, process all the docs and, you know, find us the documents. Which sure we could do that. But if there are like, 800 documents per client, the price is going to be pretty high to do that. So So then, and so we were like, okay, the way that the product is set up today, it's not really to do needle in a haystack necessarily. It's really to, like, process everything that comes in according to some specific criteria, and that's the way we've priced it, and that's the way we've been talking about the value prop, and blah, blah, blah, blah. So, so now it's like, Okay, do we, you know, they have this other use case? Do we try to build something that is like a comp that is able to address this use case at a scalable sort of price with the right amount of ROI, which might be more of like a call the Egnyte API to grab the entire file structure and all the file names and then create like a parsing script or logic to identify documents with a fuzzy match that might be the ones and get links to those or and then, like, combine that with paring down, like, okay, most of these net worth statements are in the compliance folder under every single household name, and only process the compliance folder more something like that. And then it's really getting to, like, this whole sort of solution service, add on, Doc processing. It's like, it's like, it's, you know, at first brush, it's like, okay, yeah, we can, like, build this thing and then ask this question and do this thing, but it's suddenly you're, like, doing services and building another product, you know. So, like, we just, we just want to know. We're just trying to think about, how do we like, how should we think through this and and on top of that, obviously, these companies have so many operational pain points, like, they're all operating extremely inefficiently. They, you know, their software doesn't talk to each other. There are many, many people across the organization doing absurd manual work, who are, like, pretty highly paid people. And, you know, do we try to, like, how do we balance, like, going deeper with each of these guys, with just going out and, like, trying to get more ignite customers as fast as possible?
+
+Chuck Blake  13:36  
+Can I? Can I add us something on that Max? Yeah, so I think too, like, you know, as as we're thinking through this use case, and kind of just like Max hour, just like brainstorming, like ways to to address it. And it definitely had, like, a services kind of feel, but I think we kind of stepped back and said, like, hey, is this really a good opportunity right now? Should, should we be, like, doing some services work? Because the landscape is changing so fast. People want to use AI. They want to do these things we could help, sort of like, apply our expertise to these problems, even though they don't match up with our product directly. Like, are we missing out on something if we're not sort of tapping into some of these other problems and use cases, even if they're not directly related to the product that we're building? Because we're still able to kind of walk in and solve these kind of operational problems for them, and it might open up bigger opportunities and other opportunities for us. Yeah.
+
+Matt Ober  14:30  
+I mean, my my gut, is that you should be doing this work for them, and the more you're trusted there, the more you're embedded. And sure, it's services right now, but it's on you and chuck to figure out how to productize. That goes back to, like, my comment, remember when we were thinking about how to showcase the website and, like, we talked about how heaviest shows that, like, they have all these different use cases, like, all right, in the M and A group, it's still document intelligence, right? It's still using your core tech. It's just being it doesn't fit your revenue model or your ROI model. But like, if mission wealth has this problem, then wouldn't this same issue be happening for full circle that's being acquired right now when they go over to their new client, that when they get acquired, like, you would argue that everybody has to find these documents, right, right? So, like, I think, like, the one thing that I heard from you guys is is that it doesn't fit your current pricing model, and it's a little bit more services oriented. Because, like, you've never used your tool for finding a needle in the haystack, but like, why not flip the script and just be like, well, use our tool for what it's supposed to be, which is taking all their files, doing all the renaming, doing all the structuring, and then as part of that, the M and A team pays an extra x for that group to be able to do, like, document intelligence, like, you know, the finding aspect. Maybe that's just a small add on, right? But I don't, I think, like, I'm much happier as an investor to see you go with from Mission wealth to 10 grand a year to 30 grand a year to 80 grand a year, with five use cases. And then at the beginning it was a little bit hands on, but like, everything's gonna be hands on with you guys, until you productize, right? I think where I would be confused is if you said, like, now we're working with, like, a healthcare like, I'll give you an example. Jared from New Tech said, I'm really bummed that Max and Chuck won't let me use their product for a healthcare use case I have right now. And he called me, like, twice. He's like, I have two clients right now that need their tool. And I was like, Jared, like, I just like, like, if you were licensing it from them and they didn't have to do any work, I could maybe talk to them about it. But if I found out, like, Chuck and Max were, like, spending time with you, like, configuring shit for, like, a healthcare like, yeah, that would be a little bit of a distraction, right? But like, this, saying no to this revenue seems dumb to me. Yeah, because it's not like outside it's not like Chuck's building an iOS app for them that's custom for them. You know what I mean, right? It's not like we're doing something way outside the box. It's just doesn't fit your pricing model. Yet. I think the deeper you get, the more you'll understand. I mean, we talked mass transition, if you're the M A tool. Like, I just feel like it's going to open up a ton of every RIA is acquiring right now, right? Yep, and making these acquisitions. So like, I would take it and figure out how to back into the product, productization of it, and then you have a new use case for a different group within teams. Makes sense. I don't disagree with your max, your idea of getting every ignite client. But like, I think, like, if you can show another use case within the firm, and you've landed and expanded, you're only going to become more and more sticky across, like, use cases for every for everybody that's acquiring teams.
+
+Max Klein  17:52  
+Yep, makes sense. Makes sense,
+
+Matt Ober  17:58  
+which, by the way, Jared wanted me to reiterate that he's upset that he can't license your tool.
+
+Max Klein  18:05  
+Well, sorry, Charlie,
+
+Matt Ober  18:06  
+I told him. I was like, listen, like, we don't need a line item of your revenue on the books unless, like, it's fully, like, automated, and there's no way you're gonna be able to use it on your own for a new, new vertical. Yeah.
+
+Chuck Blake  18:20  
+I mean, yeah, we definitely kind of stepped away because it was healthcare but, but really, there's nothing particularly, like, there's nothing particular about the tech that restricts us from doing something like that. I agree.
+
+Matt Ober  18:37  
+Yeah, yeah. I think, like, if I looked at it this way, I'd be like, if you had just closed your series A Yeah, and you're like, hey, we have an opportunity to expand into healthcare without having to do much except for, like, work with a third party and you had a team of 20, and you're gonna Skunk Works an engineer over there. Yeah? Check it out, right? But, like, there's no lack of clients in the finance space, right?
+
+Chuck Blake  19:01  
+Yeah, that makes sense. And I guess that could even be something in the back pocket for part of, like, a series, a story.
+
+Matt Ober  19:07  
+Yeah, we have it. We have interest from other verticals. We're not considering it. But, like, just shows you that the TAM is much bigger than what we're working on now, right? But like, I think you can build a very you can build a billion dollar company just sticking to where you guys are.
+
+Max Klein  19:25  
+All right, yep, all right, this is great. Anything else, Chuck,
+
+Chuck Blake  19:36  
+no, I'm good. Okay.
+
+Max Klein  19:37  
+Same here. All right, cool. Thank you, Matt,
+
+Matt Ober  19:40  
+yep, Max. Last thing on my end.
+
+Max Klein  19:43  
+Oh, yeah, you have some. We have some. I don't
+
+Matt Ober  19:45  
+remember what I had on there. Oh, send Howard a text. Maybe just grab coffee or lunch for them next week when he's in town. Okay, just because I want you to give him the latest so that way he can speak to it with a few of the wealth managers we've been like, deep in discussion with, and then the Rothschild thing. So you said, just so I know you there, they hired a consultant. Is that what you said, Yeah,
+
+Max Klein  20:05  
+I even, like when we went from first call, the guy said, I definitely want to do this. Let's just get our team on to me visiting them in person, in their office, and then them telling me on the way out that they're going to hire
+
+Matt Ober  20:21  
+f2 but f2 would they be a consultant that would end up doing it themselves, or that would then say they should use you?
+
+Max Klein  20:28  
+They would potentially say they f2 would potentially say they should, they should use us.
+
+Matt Ober  20:33  
+Okay, I'm just, I'm in just so you guys know this is confidential. I'm in like, deep conversations with Sean Kelly there, who's, like, the chairman of the board, about doing a partnership so that social leverage wealth would be off the ground, managed by Rothschild. And part of the discussion was like, we want to use some of our tools. And I brought you up, gave, like, a kind of overview of what you guys do. Okay? He was like, Yeah, that would be a no brainer. So I've had those conversations. I should have more updates within the next, like, two, three weeks. But I just wanted to know where we're landed, because I My goal is to have social leverage Wealth Management off the ground before the end of q1 and if my guess would say is there's a high chance that we end up doing it with Roth Kyle, okay,
+
+Max Klein  21:19  
+I talked to James. He's, he's also a family friend. That's how I got in touch with him, okay? And he is the financial advisor of, like, my, my, like, fake uncle,
+
+Matt Ober  21:36  
+and not your real uncle,
+
+Max Klein  21:38  
+not my real uncle, definitely my fake uncle. But you know, you know how those fake uncles roll. And so he was, like, very, you know, very kind and initially, very excited, but then, like, just not wanting to make any decisions without a consultant involved. I think,
+
+Matt Ober  22:01  
+yeah, yeah, that makes sense. Okay, well, I'll give them my two cents.
+
+Max Klein  22:05  
+They're definitely, they're like, I feel like their business is really good, but they're very old school.
+
+Matt Ober  22:10  
+Their tech is not great, which is why I think, like they are interested in what we bring to the table. Yeah, you guys use this.
+
+Max Klein  22:20  
+So, yeah, good fit. Okay, all right, I'll text Howard, are you? Hang on. Let me you had some other random things just one second. Yeah, okay, okay, that's it. Thanks, Matt. We'll, we will. We'll be in touch. She didn't. You didn't. You don't know any like other specific tips for LinkedIn ads. Do you or like people to talk to? Let
+
+Matt Ober  22:54  
+me go back through my notes and just see if any of the companies are actively using it, like, a lot that can, like, you could hop on the phone with
+
+Max Klein  23:05  
+maybe I'll just ask, like, a few of the other founders
+
+Matt Ober  23:08  
+thing, yeah. I'm just trying to think,
+
+Max Klein  23:11  
+yes again, yeah, I'll ping. I'll ping a few has, like, have, like, the synthetic phi guys been using it.
+
+Matt Ober  23:22  
+They haven't yet. I mean, they're overwhelmed right now with interest. Interest, they just, and they're just, like, they just hired three people. So, like, they're just trying to, like, figure out how to get people, like, working. It's on their roadmap. But like, Joseph and Tony are trying to figure out how to focus while also doing everything,
+
+Max Klein  23:44  
+Okay, makes sense? Okay, cool, seeing you guys. Chuck, you want to stay on for a sec? Yeah, so later back.
+
+Chuck Blake  23:54  
+Max, I wonder if there's a LinkedIn. MCP, I
+
+Max Klein  24:04  
+you there? Yeah, I'm here. I bet you there. That
+
+Chuck Blake  24:07  
+was good. So I guess, like, I don't think he exact, like, I don't think he exactly rocked what we were talking about, but it was close enough. And I think it's good. I it's, I guess it's not that way, like, needed cover. But it's good to sort of have the understanding that that we might be doing some of these things that are little like, serve more like a service. He kind of thing, insert a services project and service of finding other products to build and do that. So, so and he, and I think he's right, obviously, like, right. There's like, it's yeah, for all the reasons we were saying. But I think, like, I would, I think it's like, more different than he understood exactly, but it's not that different, you know what I mean, but it's like,
+
+Max Klein  24:56  
+it's in the ballpark,
+
+Chuck Blake  24:58  
+but yeah, what's, what's, uh, yeah. So I think if we talk, but again, how do we, how do we price it and figure it out and do it or whatever, make it those are all.
+
+Max Klein  25:05  
+Those are all like, How's versus, versus, if. And I know that they're like, I guess, like,
+
+Chuck Blake  25:10  
+the reason I think it's like, particularly important is like, we want to, like, not come off, like, weird and flaky in the in the like, we want to sort of say, Oh, this isn't really part of our product now, because it's not, and we have to do some other stuff, but we don't want to say that like, too heavily, because we want to make it like, it as if it is our product. But like, are we going to charge it like services or like, is it like,
+
+Max Klein  25:31  
+yeah, so just figure it out. Like, let's get the, let's get the information from them. We have the follow up on the calendar. Like, let's just figure it out. And, and, and, you know, manage the relationship and manage our roadmap at the same time.
+
+Chuck Blake  25:47  
+Cool, cool. Good times. All
+
+Max Klein  25:50  
+right, cool. I'm gonna, I gotta think about the LinkedIn ad thing.
+
+Chuck Blake  25:58  
+I guess it seems pretty good, like, it's probably it's nice and constrained if we're just gonna, like, upload, I don't know how it works, but imagine we could upload a list of domains or whatever, and just like, target those directly and run $1,000 against it or something, and yep, see what, see what comes up. Yep. But I think it's good. I think in addition to like, when you're calling them or whatever, just like another like, if they see us popping up in their feed or whatever, I think that's probably just like a good thing, and especially if we have this list of the exact people we want to target, it's like a no brainer. Correct? Exactly?
+
+Max Klein  26:41  
+Cool. I'm going to work on this, and then I'm also going to try to talk to Egnyte about getting some intros.
+
+Chuck Blake  26:50  
+Yeah, think, like, was it obvious, like, I would pick like, 10 that were like, particularly interested in, or something.
+
+Max Klein  26:56  
+Or, Yeah, I agree.
+
+Chuck Blake  27:02  
+Or less, or something, and try to get really again. If you gave them, like, three, are they really? If we gave them 150 they're not going to give us 150
+
+Max Klein  27:09  
+probably, no, I think, no, but like, if I can, like, let me, let's talk through this, because I have the list pulled up and I can talk 50 things.
+
+Max Klein  27:29  
+Okay, so if I just hide this so
+
+Chuck Blake  27:34  
+you're really, like the fifth highest. It's, like the number. That's the top one.
+
+Max Klein  27:37  
+It's, yeah, it's six.
+
+Chuck Blake  27:41  
+Oh, there's quite a drop off there, though, yeah,
+
+Max Klein  27:43  
+there's a big drop off like these, to me, like, sfmg is not even on here, so, like, the data is not complete, you know, right?
+
+Chuck Blake  27:54  
+Could you look up? Could they give you the sfmg record? Is it just like, not showing like, or what? It doesn't matter. I'm just curious how you pulled this or whatever, like, whatever that field is, what did sfmg have in there?
+
+Max Klein  28:07  
+You know what I mean. So sfmg has only that. It's on their website somewhere. Okay, so the big ones are SCS, which is part of focus. I believe powder is already working with them, which could be interesting. Carson wealth is a huge, awesome one. We should get an intro there. Lido, I've been trying to get in touch with, haven't been able to Wealthspire been trying to get in touch with, they just had a management change. Haven't been able to this one powder is also working with, but they're also a rise growth port CO, where I'm trying to get another rise growth port CO, which is also not on this list. So trying to figure that out. Pure, you know Apollon, I'm already in touch with the guy, but it would be great for him to get the resonance from Ignite as well, you know, and then on down the line, like all these small guys, I'm just going to try to, you know, like, they wouldn't be my top ask, do
+
+Chuck Blake  29:15  
+you think it makes sense to, like, like, just Go after all these one built like, the ones under between pure and a billion or higher, and then, like, yeah, like this list. Because, like, do we, are we ready to talk to, like, the bigger ones yet? Do we want to have like, more smaller ones and sort of more, or is it like an opportunity we should just be talking to everybody, and might as well hit the big ones, because the big ones are the big ones.
+
+Max Klein  29:40  
+Why would you even say that we're not ready to hit the big ones? I don't know. Yeah, I don't know. No, we're definitely ready to hit the big ones. We're already working with the sixth biggest right? And cress, who's on in, who we might close, is bigger than all these fucking companies, right? Though. So, yeah, okay, I think we just ask for like, three or four, yeah, and then,
+
+Chuck Blake  30:08  
+because if they give you three or four, then you can go back every couple weeks and ask for three or four more
+
+Max Klein  30:14  
+correct? Cgn,
+
+Max Klein  30:21  
+yeah. Yeah. So that's it, okay,
+
+Chuck Blake  30:25  
+Allen's on there again,
+
+Max Klein  30:27  
+yeah, there's like some subsidiary, but it also might be a different company.
+
+Chuck Blake  30:31  
+It's a different domain, or whatever. Yeah, Cool, good times, actually.
+
+Max Klein  30:40  
+Oh no. It's, yeah, it's just, they just have two different, two different names. Oh, I like,
+
+Chuck Blake  30:44  
+it was, I like, that we, I forgot about the healthcare. I thought that was just sort of came up a conversation. I didn't realize Jared was, like, pushing on that. But that's, that's interesting, definitely interesting, definitely interesting. Like, that's a series, a story for real. Like, we could, I know, again, it's like, we have, like, the final, if the again, a fact, if Matt's right, this is a billion dollar company just talking about wealth tech. That's great. But like, I wonder if, like, um, you know, we have, like, how do you build out wealth tech? We got to hit a we had to, like, have the sales shops working, not for like, partner channels and like, there's all these like pieces that build up that one thing. But then there's, like, the same way that we would like replicate Egnyte to do the next one, and the next one we could replicate like wealth tech to do, like healthcare to do, like something else or whatever. Yeah, you know,
+
+Max Klein  31:35  
+Yep, exactly. Okay, I'm gonna, I'm gonna get to this and try to start, start getting some some some things going right right on. Talk to you later. Later, bye.
+
+Transcribed by https://otter.ai
