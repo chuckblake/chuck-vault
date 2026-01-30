@@ -158,13 +158,17 @@ def format_briefing_html() -> str:
         articles_html += f'''
         <tr>
             <td style="padding: 16px 0; border-bottom: 1px solid #e5e7eb;">
-                <div style="display: flex; align-items: flex-start; gap: 12px;">
-                    <span style="background: {source_color}; color: white; font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: 4px; min-width: 24px; text-align: center;">{source}</span>
-                    <div>
-                        <a href="{story['url']}" style="color: #111827; text-decoration: none; font-weight: 500; font-size: 15px; line-height: 1.4;">{story['title']}</a>
-                        <div style="color: #6b7280; font-size: 13px; margin-top: 4px;">{meta}</div>
-                    </div>
-                </div>
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="vertical-align: top; padding-right: 16px;">
+                            <span style="display: inline-block; background: {source_color}; color: white; font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: 4px; min-width: 24px; text-align: center;">{source}</span>
+                        </td>
+                        <td style="vertical-align: top;">
+                            <a href="{story['url']}" style="color: #111827; text-decoration: none; font-weight: 500; font-size: 15px; line-height: 1.4;">{story['title']}</a>
+                            <div style="color: #6b7280; font-size: 13px; margin-top: 6px;">{meta}</div>
+                        </td>
+                    </tr>
+                </table>
             </td>
         </tr>'''
     
