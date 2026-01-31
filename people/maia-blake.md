@@ -24,7 +24,7 @@ company:
 title:
 industry:
 
-birthday:
+birthday: 2006-09-06
 spouse:
 kids: []
 interests: []
@@ -44,7 +44,7 @@ My child.
 
 ## Notes
 
--
+**School:** Rensselaer Polytechnic Institute (RPI)
 
 ## Contact Log
 
