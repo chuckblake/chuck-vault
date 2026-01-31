@@ -1,11 +1,11 @@
-# Minislist — Landing Page Copy
+# MinisList — Landing Page Copy
 
 ---
 
 ## Hero
 
 **Headline:**
-# Minislist
+# MinisList
 
 **Tagline:**
 The dumb todo list for your smart AI.
@@ -41,7 +41,7 @@ Good luck getting Claude to do anything useful with that.
 
 ### What if your todo list was just... a text file?
 
-**Minislist** is aggressively simple:
+**MinisList** is aggressively simple:
 
 - ✅ Add tasks
 - ✅ Check them off
@@ -75,7 +75,7 @@ Human-readable. AI-readable. Grep-able. Future-proof.
 
 The app is the input layer. Your AI is the brain.
 
-**Minislist stays dumb so your stack can be smart.**
+**MinisList stays dumb so your stack can be smart.**
 
 ---
 
@@ -89,7 +89,7 @@ The app is the input layer. Your AI is the brain.
 ```
 
 1. **You** jot down tasks throughout the day
-2. **Minislist** saves them as `2026-01-31.md`
+2. **MinisList** saves them as `2026-01-31.md`
 3. **Your system** (Obsidian, Claude, scripts, whatever) processes them
 4. **Tomorrow** you open a fresh file
 
@@ -165,7 +165,7 @@ That's your job. Or your AI's job.
 
 ## Section 8: Who It's For
 
-**Minislist is for you if:**
+**MinisList is for you if:**
 
 - You have an AI assistant (Claude, GPT, local LLM)
 - You use Obsidian or plain-text workflows
@@ -173,7 +173,7 @@ That's your job. Or your AI's job.
 - You want to build automations on top of your tasks
 - You believe in open formats and data ownership
 
-**Minislist is NOT for you if:**
+**MinisList is NOT for you if:**
 
 - You want the app to tell you what to do
 - You need team features
@@ -210,7 +210,7 @@ Or keep using that "smart" todo app your AI can't touch.
 
 ## Footer
 
-**Minislist**
+**MinisList**
 The dumb todo list for your smart AI.
 
 [GitHub] [Twitter] [Contact]
@@ -235,7 +235,7 @@ Auto-scheduling. Smart suggestions. "Let us organize your day."
 
 But then my AI assistant couldn't read any of my tasks. They were trapped in a proprietary database.
 
-**3/** So I built Minislist.
+**3/** So I built MinisList.
 
 You add tasks. You check them off. That's it.
 
@@ -259,7 +259,7 @@ Because your AI is smart.
 Your Obsidian plugins are smart.
 Your cron jobs are smart.
 
-Minislist is just the input layer.
+MinisList is just the input layer.
 
 **6/** Launching soon.
 
@@ -273,7 +273,7 @@ The dumb todo list for your smart AI.
 
 ## HN Post
 
-**Title:** Minislist – The dumb todo list for your smart AI
+**Title:** MinisList – The dumb todo list for your smart AI
 
 **Text:**
 

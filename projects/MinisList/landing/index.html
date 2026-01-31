@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinisList — The dumb todo list for your smart AI</title>
+    <meta name="description" content="A minimal todo app that saves tasks as plain text files. Your AI handles the rest.">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --bg-alt: #f1f5f9;
+            --text: #0f172a;
+            --muted: #64748b;
+            --accent: #0ea5e9;
+            --accent-hover: #0284c7;
+            --border: #e2e8f0;
+            --code-bg: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.65;
+            font-size: 17px;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header */
+        header {
+            padding: 64px 0 48px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            letter-spacing: -0.025em;
+            color: var(--text);
+        }
+
+        .tagline {
+            font-size: 19px;
+            color: var(--muted);
+            margin-bottom: 36px;
+            line-height: 1.5;
+        }
+
+        /* CTA Button */
+        .cta {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+
+        .cta:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+        }
+
+        /* Sections */
+        section {
+            padding: 56px 0;
+            border-top: 1px solid var(--border);
+        }
+
+        h2 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: -0.01em;
+            color: var(--text);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        p.muted {
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        /* Code blocks */
+        pre {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px 24px;
+            overflow-x: auto;
+            font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 24px 0;
+            color: var(--text);
+        }
+
+        code {
+            font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+            font-size: 14px;
+            background: var(--bg-alt);
+            padding: 3px 7px;
+            border-radius: 5px;
+            color: var(--text);
+        }
+
+        /* Feature list */
+        .features {
+            display: grid;
+            gap: 28px;
+            margin: 32px 0;
+        }
+
+        .feature {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .feature-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--bg-alt);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .feature-text h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: var(--text);
+        }
+
+        .feature-text p {
+            font-size: 15px;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* How it works */
+        .flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 36px 0;
+            flex-wrap: wrap;
+        }
+
+        .flow-step {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            padding: 14px 22px;
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 15px;
+            color: var(--text);
+        }
+
+        .flow-arrow {
+            color: var(--muted);
+            font-size: 18px;
+        }
+
+        /* Works with */
+        .works-with {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 24px 0;
+        }
+
+        .works-with span {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        /* Email signup */
+        .signup {
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            padding: 40px 32px;
+            border-radius: 16px;
+            text-align: center;
+            margin: 32px 0;
+        }
+
+        .signup h3 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .signup > p {
+            color: var(--muted);
+            font-size: 15px;
+            margin-bottom: 24px;
+        }
+
+        .signup-form {
+            display: flex;
+            gap: 12px;
+            max-width: 380px;
+            margin: 0 auto;
+        }
+
+        .signup-form input[type="email"] {
+            flex: 1;
+            padding: 13px 18px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 15px;
+            background: white;
+            color: var(--text);
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .signup-form input[type="email"]::placeholder {
+            color: var(--muted);
+        }
+
+        .signup-form input[type="email"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+        }
+
+        .signup-form button {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 13px 24px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .signup-form button:hover {
+            background: var(--accent-hover);
+        }
+
+        /* Footer */
+        footer {
+            padding: 48px 0;
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--muted);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent);
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            header {
+                padding: 48px 0 36px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .tagline {
+                font-size: 17px;
+            }
+
+            section {
+                padding: 40px 0;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            .signup-form {
+                flex-direction: column;
+            }
+
+            .flow {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .flow-arrow {
+                transform: rotate(90deg);
+            }
+
+            .signup {
+                padding: 32px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">MinisList</div>
+            <h1>The dumb todo list for your smart AI</h1>
+            <p class="tagline">Capture tasks on your phone. Plain text files sync to your folder. Let AI handle the rest.</p>
+            <a href="#signup" class="cta">Join the Waitlist</a>
+        </header>
+
+        <section>
+            <h2>Why dumb?</h2>
+            <p>Every todo app wants to be smart. They auto-schedule, suggest priorities, integrate with 47 services.</p>
+            <p>Then your AI assistant can't read any of it. Your tasks are locked in proprietary databases.</p>
+            <p><strong>MinisList is different.</strong> It just saves your tasks as markdown files. That's it.</p>
+            <pre>- [ ] Call dentist @Health #phone
+- [ ] Review proposal @Work !high
+- [x] Buy coffee</pre>
+            <p class="muted">Human-readable. AI-readable. Grep-able. Future-proof.</p>
+        </section>
+
+        <section>
+            <h2>How it works</h2>
+            <div class="flow">
+                <span class="flow-step">📱 Capture</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">📄 Markdown</span>
+                <span class="flow-arrow">→</span>
+                <span class="flow-step">🤖 AI Magic</span>
+            </div>
+            <p>You jot down tasks on your phone. MinisList saves them as plain markdown files — one per day — in your iCloud folder.</p>
+            <p>Your AI assistant, scripts, or Obsidian plugins can read and process them. Analyze patterns. Reprioritize. Whatever you want.</p>
+            <p><strong>The app stays dumb. Your stack gets smart.</strong></p>
+        </section>
+
+        <section>
+            <h2>The format</h2>
+            <p>Tasks are just markdown checkboxes with optional labels:</p>
+            <pre>- [ ] Task name @Project #tag !priority +person
+  Notes go here, indented</pre>
+            <p>Four task states:</p>
+            <pre>- [ ] Open — ready to do
+- [x] Done — completed
+- [-] Cancelled — dropped
+- [>] Moved — deferred to another day</pre>
+            <p class="muted">Labels use symbols: <code>@</code> <code>#</code> <code>!</code> <code>+</code> <code>~</code> <code>&</code> — you define what each means.</p>
+        </section>
+
+        <section>
+            <h2>What you get</h2>
+            <div class="features">
+                <div class="feature">
+                    <span class="feature-icon">📱</span>
+                    <div class="feature-text">
+                        <h3>Simple iPhone app</h3>
+                        <p>Add tasks, check them off, reorder. That's it.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📄</span>
+                    <div class="feature-text">
+                        <h3>Plain markdown files</h3>
+                        <p>One file per day. Open format. Zero lock-in.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">☁️</span>
+                    <div class="feature-text">
+                        <h3>iCloud sync</h3>
+                        <p>Files live in your iCloud Drive, accessible everywhere.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🤖</span>
+                    <div class="feature-text">
+                        <h3>AI-ready format</h3>
+                        <p>Each file has an AI section for your agents to write notes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Works with everything</h2>
+            <p>Because it's just text files:</p>
+            <div class="works-with">
+                <span>Obsidian</span>
+                <span>Cursor</span>
+                <span>Claude</span>
+                <span>ChatGPT</span>
+                <span>VS Code</span>
+                <span>grep</span>
+                <span>cron</span>
+                <span>Git</span>
+            </div>
+            <p class="muted">No API needed. No export. Your tasks are already everywhere.</p>
+        </section>
+
+        <section id="signup">
+            <div class="signup">
+                <h3>Get early access</h3>
+                <p>Join the waitlist. We'll let you know when it's ready.</p>
+                <form class="signup-form" action="#" method="POST">
+                    <input type="email" name="email" placeholder="you@example.com" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>MinisList — The dumb todo list for your smart AI</p>
+        </footer>
+    </div>
+</body>
+</html>
