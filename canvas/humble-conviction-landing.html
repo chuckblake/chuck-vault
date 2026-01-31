@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humble Conviction | VC Pitching Essentials for Startups</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #1a1a1a; line-height: 1.6; }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f766e 100%);
+            color: white;
+            padding: 80px 24px;
+            text-align: center;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            max-width: 700px;
+            margin: 0 auto 16px;
+            line-height: 1.1;
+        }
+        .hero .subtitle {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .cta-button:hover { background: #059669; transform: translateY(-2px); }
+        .hero-meta {
+            margin-top: 24px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        .hero-meta span { margin: 0 12px; }
+
+        /* Social Proof */
+        .social-proof {
+            background: #f8fafc;
+            padding: 48px 24px;
+            text-align: center;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number { font-size: 36px; font-weight: 700; color: #0f766e; }
+        .stat-label { font-size: 14px; color: #64748b; }
+
+        /* What You'll Learn */
+        .learn {
+            padding: 80px 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        .learn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        .learn-item {
+            background: #f8fafc;
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 4px solid #10b981;
+        }
+        .learn-item h3 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #0f172a;
+        }
+        .learn-item p {
+            font-size: 15px;
+            color: #64748b;
+        }
+
+        /* Curriculum */
+        .curriculum {
+            background: #0f172a;
+            color: white;
+            padding: 80px 24px;
+        }
+        .curriculum .section-title { color: white; }
+        .modules {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .module {
+            background: rgba(255,255,255,0.05);
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+        }
+        .module-number {
+            background: #10b981;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+            margin-right: 12px;
+        }
+        .module h3 { display: inline; font-size: 18px; }
+        .module p { margin-top: 12px; color: #94a3b8; font-size: 15px; }
+
+        /* Instructor */
+        .instructor {
+            padding: 80px 24px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .instructor-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0f766e, #10b981);
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+        .instructor h3 { font-size: 24px; margin-bottom: 8px; }
+        .instructor .title { color: #64748b; margin-bottom: 16px; }
+        .instructor .bio { max-width: 600px; margin: 0 auto; color: #475569; }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #10b981 0%, #0f766e 100%);
+            color: white;
+            padding: 80px 24px;
+            text-align: center;
+        }
+        .cta-section h2 { font-size: 36px; margin-bottom: 16px; }
+        .cta-section p { font-size: 18px; opacity: 0.9; margin-bottom: 32px; }
+        .cta-section .cta-button {
+            background: white;
+            color: #0f766e;
+        }
+        .cta-section .cta-button:hover { background: #f0fdf4; }
+
+        /* Footer */
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 32px 24px;
+            text-align: center;
+            font-size: 14px;
+        }
+        footer a { color: #10b981; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-badge">🎯 Live Cohort Starting Soon</div>
+        <h1>Master the Art of VC Pitching</h1>
+        <p class="subtitle">Learn the frameworks, psychology, and tactics that turn cold pitches into funded startups. From the creators of Humble Conviction.</p>
+        <a href="#enroll" class="cta-button">Enroll Now — $497</a>
+        <div class="hero-meta">
+            <span>📅 4 Weeks</span>
+            <span>🎥 Live Sessions</span>
+            <span>👥 Small Cohort</span>
+            <span>⭐ 4.9 Rating</span>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">50K+</div>
+                <div class="stat-label">YouTube Subscribers</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">$2.4B+</div>
+                <div class="stat-label">Raised by Students</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Founders Coached</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">92%</div>
+                <div class="stat-label">Meeting Conversion</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You'll Learn -->
+    <section class="learn">
+        <h2 class="section-title">What You'll Learn</h2>
+        <div class="learn-grid">
+            <div class="learn-item">
+                <h3>🎯 The Pitch Framework</h3>
+                <p>The exact 10-slide structure that top VCs want to see, and why most founders get it wrong.</p>
+            </div>
+            <div class="learn-item">
+                <h3>🧠 Investor Psychology</h3>
+                <p>Understand how VCs think, what triggers their interest, and what makes them pass.</p>
+            </div>
+            <div class="learn-item">
+                <h3>📊 Traction Storytelling</h3>
+                <p>Turn your metrics into a compelling narrative that proves market demand.</p>
+            </div>
+            <div class="learn-item">
+                <h3>💬 Handling Tough Questions</h3>
+                <p>Master the art of Q&A — turn objections into opportunities to shine.</p>
+            </div>
+            <div class="learn-item">
+                <h3>📧 Cold Outreach That Works</h3>
+                <p>Get meetings with top-tier VCs using proven email templates and warm intro strategies.</p>
+            </div>
+            <div class="learn-item">
+                <h3>🤝 Closing the Deal</h3>
+                <p>Navigate term sheets, negotiate valuations, and close your round with confidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section class="curriculum">
+        <h2 class="section-title">Course Curriculum</h2>
+        <div class="modules">
+            <div class="module">
+                <span class="module-number">1</span>
+                <h3>Foundations: Understanding the VC Landscape</h3>
+                <p>How venture capital works, fund economics, and what VCs are actually looking for in 2026.</p>
+            </div>
+            <div class="module">
+                <span class="module-number">2</span>
+                <h3>Crafting Your Story: The Perfect Pitch Deck</h3>
+                <p>Build your deck from scratch using our battle-tested framework. Live deck reviews included.</p>
+            </div>
+            <div class="module">
+                <span class="module-number">3</span>
+                <h3>Delivery & Presence: Pitching with Conviction</h3>
+                <p>Body language, pacing, and energy. Practice pitches with real-time feedback.</p>
+            </div>
+            <div class="module">
+                <span class="module-number">4</span>
+                <h3>The Fundraise: From First Meeting to Term Sheet</h3>
+                <p>Pipeline management, follow-ups, due diligence prep, and negotiation tactics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructor -->
+    <section class="instructor">
+        <h2 class="section-title">Your Instructor</h2>
+        <div class="instructor-avatar">🎬</div>
+        <h3>Humble Conviction</h3>
+        <p class="title">Startup VC Pitching Essentials</p>
+        <p class="bio">Creator of the popular YouTube channel breaking down what actually works in startup fundraising. Combining real pitch deck teardowns, VC interviews, and hard-won lessons from the trenches of early-stage startups.</p>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="enroll">
+        <h2>Ready to Raise with Confidence?</h2>
+        <p>Join the next cohort and transform your fundraising game.</p>
+        <a href="#" class="cta-button">Enroll Now — Limited Spots</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Humble Conviction | <a href="#">YouTube</a> | <a href="#">Twitter</a> | <a href="#">Contact</a></p>
+    </footer>
+</body>
+</html>
