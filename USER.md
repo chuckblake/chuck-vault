@@ -8,6 +8,7 @@
 - **Info format:** Quick bullet points, not detailed reports
 - **Questions:** One at a time (don't overwhelm)
 - **Requests:** Confirm receipt quickly before diving into research/work
+- **Research:** Save research to chuck vault (`/Users/gomez/clawd`) as markdown files for future reference
 
 ## Context
 
